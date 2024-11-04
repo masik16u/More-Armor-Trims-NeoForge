@@ -1,0 +1,8 @@
+{
+  "asset_id": "more_armor_trims:storm",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.more_armor_trims.storm"
+  },
+  "template_item": "more_armor_trims:storm_armor_trim_smithing_template"
+}

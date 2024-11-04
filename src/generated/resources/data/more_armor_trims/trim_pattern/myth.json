@@ -1,0 +1,8 @@
+{
+  "asset_id": "more_armor_trims:myth",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.more_armor_trims.myth"
+  },
+  "template_item": "more_armor_trims:myth_armor_trim_smithing_template"
+}

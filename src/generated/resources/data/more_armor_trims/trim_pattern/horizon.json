@@ -1,0 +1,8 @@
+{
+  "asset_id": "more_armor_trims:horizon",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.more_armor_trims.horizon"
+  },
+  "template_item": "more_armor_trims:horizon_armor_trim_smithing_template"
+}
