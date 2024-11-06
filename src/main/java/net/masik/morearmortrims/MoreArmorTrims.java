@@ -1,6 +1,7 @@
 package net.masik.morearmortrims;
 
 import net.masik.morearmortrims.item.ModItems;
+import net.masik.morearmortrims.loot.ModLootModifiers;
 import net.masik.morearmortrims.util.TrimHelper;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.ItemLike;
@@ -37,10 +38,10 @@ public class MoreArmorTrims
     // Run when mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public MoreArmorTrims(IEventBus modEventBus, ModContainer modContainer) {
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModLootModifiers.registerModifiers(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -54,15 +55,7 @@ public class MoreArmorTrims
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
-//        LOGGER.info("HELLO FROM COMMON SETUP");
-//
-//        if (Config.logDirtBlock)
-//            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-//
-//        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-//
-//        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -81,8 +74,7 @@ public class MoreArmorTrims
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-        // Do something when the server starts
-//        LOGGER.info("HELLO from server starting");
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -92,9 +84,7 @@ public class MoreArmorTrims
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-//            LOGGER.info("HELLO FROM CLIENT SETUP");
-//            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
         }
     }
 }

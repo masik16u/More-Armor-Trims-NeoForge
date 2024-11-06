@@ -1,6 +1,15 @@
 {
   "replace": false,
   "entries": [
-
+    "more_armor_trims:storm",
+    "more_armor_trims:ram_evoker",
+    "more_armor_trims:ram_ravager",
+    "more_armor_trims:greed",
+    "more_armor_trims:beast",
+    "more_armor_trims:fever",
+    "more_armor_trims:wraith",
+    "more_armor_trims:nihility",
+    "more_armor_trims:horizon",
+    "more_armor_trims:origin"
   ]
 }
