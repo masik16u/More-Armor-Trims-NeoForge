@@ -1,25 +1,8 @@
+<h1 align="center">More Armor Trims [Neo Forge]  <br>
+	<a href="https://www.curseforge.com/minecraft/mc-mods/more-armor-trims"><img src="http://cf.way2muchnoise.eu/876103.svg" alt="CF"></a>
+    <br><br>
+</h1>
+<p align="center">More Armor Trims is a mod created by Masik16u that adds new armor trims to Minecraft</p>
 
-Installation information
-=======
-
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+<h1></h1>
+<h4 align="center">You can download this mod on <a href="https://www.curseforge.com/minecraft/mc-mods/more-armor-trims">Curseforge</a> and <a href="https://modrinth.com/mod/more-armor-trims">Modrinth</a></h4>
