@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:gameplay/fishing"
+      "loot_table_id": "minecraft:gameplay/fishing/treasure"
     },
     {
       "condition": "minecraft:weather_check",
@@ -11,7 +11,7 @@
     },
     {
       "condition": "minecraft:random_chance",
-      "chance": 0.05
+      "chance": 0.33
     }
   ],
   "item": "more_armor_trims:storm_armor_trim_smithing_template"

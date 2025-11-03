@@ -1,0 +1,14 @@
+{
+  "type": "more_armor_trims:replace_item_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/cat_morning_gift"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.11
+    }
+  ],
+  "item": "more_armor_trims:twilight_armor_trim_smithing_template"
+}

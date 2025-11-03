@@ -1,6 +1,7 @@
 package net.masik.morearmortrims.datagen;
 
 import net.masik.morearmortrims.MoreArmorTrims;
+import net.masik.morearmortrims.item.ModItems;
 import net.masik.morearmortrims.util.TrimHelper;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -27,7 +28,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
             trimSmithing(recipeOutput, trim.get(), ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID,
                     trim.getRegisteredName().substring(17) + "_smithing_trim"));
-            copySmithingTemplate(recipeOutput, trim.get(), TrimHelper.TRIM_MATERIALS.get(i));
+            if (!trim.equals(ModItems.WITNESS_ARMOR_TRIM_SMITHING_TEMPLATE)) {
+                copySmithingTemplate(recipeOutput, trim.get(), TrimHelper.TRIM_MATERIALS.get(i));
+            }
         }
 
     }

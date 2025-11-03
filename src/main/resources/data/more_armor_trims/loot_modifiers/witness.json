@@ -1,0 +1,29 @@
+{
+  "type": "more_armor_trims:add_item_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "vanillabackport:blocks/creaking_heart"
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 13000,
+        "max": 23000
+      },
+      "period": 24000
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "vanillabackport:creaking_heart",
+      "properties": {
+        "natural": "true"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.2
+    }
+  ],
+  "item": "more_armor_trims:wraith_armor_trim_smithing_template"
+}

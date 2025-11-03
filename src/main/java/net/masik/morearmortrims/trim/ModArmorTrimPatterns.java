@@ -38,6 +38,12 @@ public class ModArmorTrimPatterns {
             ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "horizon"));
     public static final ResourceKey<TrimPattern> ORIGIN_ARMOR_TRIM_PATTERN = ResourceKey.create(Registries.TRIM_PATTERN,
             ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "origin"));
+    public static final ResourceKey<TrimPattern> TWILIGHT_ARMOR_TRIM_PATTERN = ResourceKey.create(Registries.TRIM_PATTERN,
+            ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "twilight"));
+    public static final ResourceKey<TrimPattern> PARASITE_ARMOR_TRIM_PATTERN = ResourceKey.create(Registries.TRIM_PATTERN,
+            ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "parasite"));
+    public static final ResourceKey<TrimPattern> WITNESS_ARMOR_TRIM_PATTERN = ResourceKey.create(Registries.TRIM_PATTERN,
+            ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "witness"));
 
     private static final List<ResourceKey<TrimPattern>> TRIM_PATTERNS = new ArrayList<>() {{
         add(STORM_ARMOR_TRIM_PATTERN);
@@ -50,6 +56,9 @@ public class ModArmorTrimPatterns {
         add(NIHILITY_ARMOR_TRIM_PATTERN);
         add(HORIZON_ARMOR_TRIM_PATTERN);
         add(ORIGIN_ARMOR_TRIM_PATTERN);
+        add(TWILIGHT_ARMOR_TRIM_PATTERN);
+        add(PARASITE_ARMOR_TRIM_PATTERN);
+        add(WITNESS_ARMOR_TRIM_PATTERN);
     }};
 
     public static void bootstrap(BootstrapContext<TrimPattern> context) {

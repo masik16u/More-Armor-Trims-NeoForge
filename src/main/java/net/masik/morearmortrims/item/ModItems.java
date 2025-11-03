@@ -32,6 +32,12 @@ public class ModItems {
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "horizon")));
     public static final DeferredItem<Item> ORIGIN_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("origin_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "origin")));
+    public static final DeferredItem<Item> TWILIGHT_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("twilight_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "twilight")));
+    public static final DeferredItem<Item> PARASITE_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("parasite_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "parasite")));
+    public static final DeferredItem<Item> WITNESS_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("witness_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(MoreArmorTrims.MOD_ID, "witness")));
 
     public static void register(IEventBus eventBus) {
 

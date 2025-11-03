@@ -1,0 +1,21 @@
+{
+  "type": "more_armor_trims:add_item_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/endermite"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "minecraft:enderman"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.2
+    }
+  ],
+  "item": "more_armor_trims:parasite_armor_trim_smithing_template"
+}
