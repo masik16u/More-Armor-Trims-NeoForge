@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "vanillabackport:blocks/creaking_heart"
+      "loot_table_id": "minecraft:blocks/creaking_heart"
     },
     {
       "condition": "minecraft:time_check",
@@ -15,9 +15,22 @@
     },
     {
       "condition": "minecraft:block_state_property",
-      "block": "vanillabackport:creaking_heart",
+      "block": "minecraft:creaking_heart",
       "properties": {
         "natural": "true"
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch"
+            }
+          ]
+        }
       }
     },
     {
@@ -25,5 +38,5 @@
       "chance": 0.2
     }
   ],
-  "item": "more_armor_trims:wraith_armor_trim_smithing_template"
+  "item": "more_armor_trims:witness_armor_trim_smithing_template"
 }
